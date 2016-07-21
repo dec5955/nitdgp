@@ -69,9 +69,16 @@ ul{
 	font-size: 48px;
 	padding: 0;
 	margin: 0;
+	list-style: none;		
 }
 
 li{
 	width: 80%;
 	margin: 0 auto 36px auto;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 12px; 
 }

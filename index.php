@@ -33,7 +33,16 @@
         		<ul>
         			<li>
         		    <div class='student-notice-board-content'>
-        			Notice 1
+        			<?php
+                                 $url = "http://www.nitdgp.ac.in/all_pdf16/Hostel_Allotment.zip";
+                                 $fh = fopen(basename($url), "wb");
+                                 $ch = curl_init($url);
+                                 curl_setopt($ch, CURLOPT_FILE, $fh);
+                                 curl_exec($ch);
+                                 curl_close($ch);
+                                 rename('Hostel_Allotment.zip', '1.zip');
+                                ?>
+                                <a href="1.zip" target='_blank'> Hostel Allotment 2016</a>
         		    </div>
         		    </li>
         		    <li>
