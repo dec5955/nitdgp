@@ -19,7 +19,9 @@
                     <img src="NIT_Durgapur_Logo.png" id="img" />
                 </div>
             </div>
+            <div class='text-container'>
 				National Institute of Technology, Durgapur
+            </div>
 			</div>
 			<div class='bottom-strip'>
 
